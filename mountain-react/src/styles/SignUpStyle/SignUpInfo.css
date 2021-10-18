@@ -1,0 +1,91 @@
+.signup-info-content-all {
+  margin: 5% auto 15% auto;
+}
+/* title */
+.signup-info-title {
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 34px;
+  color: #19634a;
+}
+/* switch-tab start */
+#mapBtn {
+  cursor: pointer;
+  color: #4e4e4e;
+}
+#routeBtn {
+  cursor: pointer;
+  color: #4e4e4e;
+}
+#areaMap {
+  display: block;
+}
+#areaRoute {
+  display: block;
+}
+.member-map-route-content2 {
+  display: none;
+}
+/* switch-tab end */
+
+/* sign up content */
+.signUpInfo {
+  position: relative;
+  width: 578px;
+  /* height: 694px; */
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20px;
+  border: 1px solid #19634a;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 50px 30px;
+}
+.signup-info-signUp-btn {
+  background-color: #24936e;
+  color: #ffffff;
+}
+
+.signup-info-progress-adj {
+  margin: 10px auto;
+  width: 40%;
+  height: 30%;
+}
+
+.signup-info-button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  width: 100%;
+  margin: 20px auto;
+}
+.signup-info-button-container .signup-info-btn {
+  display: inline-block;
+  background-color: #6da77f;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 900;
+  border: 3px solid #6da77f;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .signup-info-button-container .signup-info-btn {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+.signup-info-button-container .signup-info-btn:hover {
+  background-color: transparent;
+  color: #6da77f;
+  -webkit-transform: scale(1.02) perspective(1000px);
+  transform: scale(1.02) perspective(1000px);
+}
